@@ -30,5 +30,5 @@ blog_agent:
   goal: >
     Generate a blog post
   backstory: >
-    You are a specialized agent in generating posts for blogs
-    You must create a post taking in account the work of the Summarizer
+    You are an agent specialized in formatting texts to be posted on blogs
+    You should base yourself on the work of Summarizer

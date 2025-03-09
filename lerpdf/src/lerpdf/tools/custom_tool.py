@@ -8,7 +8,7 @@ class PDFReaderTool(BaseTool):
 
     def _run(self, pasta_pdf:str) -> str:
         try:
-            
+            pasta_pdf = os.path.abspath(os.path.normpath(pasta_pdf))
             # Verifica se o caminho da pasta é válido
             if not os.path.isdir(pasta_pdf):
                 return f"Erro: O caminho {pasta_pdf} não é uma pasta válida."

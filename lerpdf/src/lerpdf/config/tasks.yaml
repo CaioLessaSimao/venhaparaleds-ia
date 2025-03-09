@@ -18,6 +18,6 @@ sumarize_task:
 
 blog_task:
   description: >
-    Format the summary in the style of a blog post, including a title, subheadings, and a conclusion
+    Format the summary so that it can be posted on a blog, including a title, subheadings, and a conclusion
   expected_output: >
-    A blog post
+    A text formatted so that it can be posted on a blog
