@@ -1,0 +1,23 @@
+extraction_task:
+  description: >
+    Extract text from PDF files whose path is {pasta_pdf} using pdfReaderTool.
+  expected_output: >
+    A string with the text extracted
+
+analysis_task:
+  description: >
+    Identify the key points of the text extracted by PDF Reader.
+  expected_output: >
+   The key points extracted from the text.
+
+sumarize_task:
+  description: >
+    Generate a informative summary of the filtered text.
+  expected_output: >
+    A summary
+
+blog_task:
+  description: >
+    Format the summary in the style of a blog post, including a title, subheadings, and a conclusion
+  expected_output: >
+    A blog post
